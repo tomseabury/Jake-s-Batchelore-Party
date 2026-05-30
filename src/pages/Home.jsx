@@ -92,7 +92,7 @@ export default function Home() {
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-balance font-pixel text-xl text-slate-300 sm:text-2xl">
               {totals.matches} matches. {totals.players} players. {allGames.length} games.
-              One weekend to crown the <span className="text-neon-amber">Ultimate Gamer</span>.
+              <br />One weekend to crown the <span className="text-neon-amber">Ultimate Gamer</span>.
             </p>
             <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
               <Link
