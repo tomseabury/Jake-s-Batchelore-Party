@@ -199,7 +199,7 @@ export default function Leaderboard() {
         <div className="panel space-y-2 p-5 text-sm text-slate-300">
           <p><span className="text-neon-cyan">Halo:</span> 50% K/D efficiency, 25% average kills, 25% win rate — normalized so the best player in each stat scores 100.</p>
           <p><span className="text-aoe">Age of Empires II:</span> average of your score share each match (your score ÷ the match&apos;s top score).</p>
-          <p><span className="text-spire">Slay the Spire 2:</span> rewards clears and harder random-character runs, lightly penalizes &quot;mends&quot; (needing a teammate save).</p>
+          <p><span className="text-spire">Slay the Spire 2:</span> rewards clears, harder random-character runs, and &quot;mends&quot; (giving a mend to a teammate).</p>
           <p><span className="text-doom">Doom Co-op:</span> share of keys found versus the top key-finder.</p>
           <p className="text-slate-500">Each game produces a 0–100 score, combined using the weights below. A player&apos;s weights are re-normalized to only the games they played, so sitting one out never tanks your rating.</p>
         </div>
