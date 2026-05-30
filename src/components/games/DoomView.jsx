@@ -13,6 +13,23 @@ import MatchLog from './MatchLog.jsx'
 
 const GAME = 'Doom + Doom 2 - Co-op'
 
+function DoomTooltip({ active, payload }) {
+  if (!active || !payload?.length) return null
+  const d = payload[0].payload
+  return (
+    <div className="rounded-lg border border-[#272045] bg-[#13112a] px-3 py-2 text-xs shadow-lg">
+      <div className="mb-1 font-semibold text-white">{d.player}</div>
+      <div className="flex items-center justify-between gap-4">
+        <span className="flex items-center gap-1.5 text-slate-300">
+          <span className="inline-block h-2 w-2 rounded-sm" style={{ background: playerColor(d.player) }} />
+          Keys Found
+        </span>
+        <span className="stat-num text-white">{fmtNum(d.value)}</span>
+      </div>
+    </div>
+  )
+}
+
 export default function DoomView({ meta }) {
   const rows = useMemo(() => records.filter((r) => r.game === GAME), [])
   const stats = useMemo(() => computeDoom(rows), [rows])
@@ -48,15 +65,16 @@ export default function DoomView({ meta }) {
         kept the squad pushing forward.
       </div>
 
-      <div className="grid gap-6 lg:grid-cols-2">
-        <DataTable columns={columns} rows={stats} initialSort={{ key: 'keys', dir: 'desc' }} accent={meta.accent} />
-        <div className="panel p-4">
+      <div className="panel p-5">
+        <h2 className="mb-4 font-display text-base text-white">Key Hunters</h2>
+        <div className="grid items-center gap-6 lg:grid-cols-2">
+          <DataTable bare columns={columns} rows={stats} initialSort={{ key: 'keys', dir: 'desc' }} accent={meta.accent} />
           <ResponsiveContainer width="100%" height={Math.max(220, chartData.length * 36)}>
             <BarChart data={chartData} layout="vertical" margin={{ left: 10, right: 24 }}>
               <CartesianGrid horizontal={false} stroke="#ffffff10" />
               <XAxis type="number" allowDecimals={false} tick={{ fill: '#94a3b8', fontSize: 12 }} stroke="#ffffff20" />
               <YAxis type="category" dataKey="player" width={60} tick={{ fill: '#e2e8f0', fontSize: 12 }} stroke="#ffffff20" />
-              <Tooltip cursor={{ fill: '#ffffff08' }} contentStyle={{ background: '#13112a', border: '1px solid #272045', borderRadius: 10, color: '#fff' }} />
+              <Tooltip cursor={{ fill: '#ffffff08' }} content={<DoomTooltip />} />
               <RBar dataKey="value" radius={[0, 6, 6, 0]}>
                 {chartData.map((d) => (
                   <Cell key={d.player} fill={playerColor(d.player)} />

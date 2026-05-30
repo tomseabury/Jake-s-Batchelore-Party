@@ -68,11 +68,12 @@ function aoeSubScores(playerList) {
 }
 
 // Slay the Spire 2: every logged run was a win, so we reward harder
-// random-character runs and lightly penalize "mends" (needing a teammate save).
+// random-character runs and "mends" — a mend is a save a player handed to a
+// teammate, so it's a positive that boosts their score.
 function spireSubScores(playerList) {
   const stats = computeSpire(records.filter((r) => r.game === SPIRE && playerList.includes(r.player)))
   const raw = {}
-  for (const s of stats) raw[s.player] = s.wins + 0.5 * s.randomRuns - 0.3 * s.mends
+  for (const s of stats) raw[s.player] = s.wins + 0.5 * s.randomRuns + 0.3 * s.mends
   const max = safeMax(Object.values(raw))
   const out = {}
   for (const s of stats) {
@@ -81,7 +82,7 @@ function spireSubScores(playerList) {
       parts: [
         { label: 'Wins', value: s.wins },
         { label: 'Random Runs', value: s.randomRuns },
-        { label: 'Mends', value: s.mends },
+        { label: 'Mends Given', value: s.mends },
       ],
       stat: s,
     }

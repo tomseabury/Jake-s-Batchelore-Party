@@ -129,7 +129,7 @@ export function computeSpire(rows) {
     s.mends += num(m['Mend Count'])
     s.randomRuns += num(m['Random Character?']) === 1 ? 1 : 0
   }
-  return [...byPlayer.values()].sort((a, b) => b.wins - a.wins || a.mends - b.mends)
+  return [...byPlayer.values()].sort((a, b) => b.wins - a.wins || b.mends - a.mends)
 }
 
 // ---------- DOOM CO-OP ----------

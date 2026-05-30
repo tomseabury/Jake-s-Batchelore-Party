@@ -1,24 +1,14 @@
 import { useState, useMemo } from 'react'
-import {
-  BarChart, Bar as RBar, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend, CartesianGrid, Cell,
-} from 'recharts'
 import { Table2, Layers, Trees, Coins, Crown, Swords } from 'lucide-react'
 import { records } from '../../lib/data.js'
 import { computeAoe } from '../../lib/aggregate.js'
-import { playerColor } from '../../data/games.js'
 import DataTable, { playerColumn } from '../DataTable.jsx'
 import { Segmented, StatTile } from '../ui.jsx'
 import { fmtNum } from '../../lib/format.js'
 import MatchLog from './MatchLog.jsx'
+import { AoeScoreMixChart, AoeResourceChart } from './aoeChart.jsx'
 
 const GAME = 'Age of Empires II: Definitive Edition'
-
-const tooltipStyle = {
-  background: '#13112a',
-  border: '1px solid #272045',
-  borderRadius: 10,
-  color: '#fff',
-}
 
 export default function AoeView({ meta }) {
   const [view, setView] = useState('composition')
@@ -41,6 +31,7 @@ export default function AoeView({ meta }) {
           Military: s.avgMilitary,
           Technology: s.avgTechnology,
           Society: s.avgSociety,
+          total: s.avgScore,
         })),
     [stats],
   )
@@ -49,7 +40,7 @@ export default function AoeView({ meta }) {
     () =>
       [...stats]
         .sort((a, b) => b.resources - a.resources)
-        .map((s) => ({ player: s.player, Wood: s.wood, Food: s.food, Gold: s.gold, Stone: s.stone })),
+        .map((s) => ({ player: s.player, Wood: s.wood, Food: s.food, Gold: s.gold, Stone: s.stone, total: s.resources })),
     [stats],
   )
 
@@ -74,47 +65,28 @@ export default function AoeView({ meta }) {
 
       <DataTable columns={columns} rows={stats} initialSort={{ key: 'avgScore', dir: 'desc' }} accent={meta.accent} />
 
-      <div className="flex flex-wrap items-center justify-between gap-3">
-        <h2 className="font-display text-lg text-white">Breakdown</h2>
-        <Segmented
-          value={view}
-          onChange={setView}
-          options={[
-            { value: 'composition', label: 'Score Mix', icon: Table2 },
-            { value: 'resources', label: 'Resources', icon: Coins },
-          ]}
-        />
+      <div>
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <h2 className="font-display text-lg text-white">Breakdown</h2>
+          <Segmented
+            value={view}
+            onChange={setView}
+            options={[
+              { value: 'composition', label: 'Score Mix', icon: Table2 },
+              { value: 'resources', label: 'Resources', icon: Coins },
+            ]}
+          />
+        </div>
+        <p className="mt-1 text-xs text-slate-500">
+          Each bar is a player's <span className="text-slate-300">average per match</span>, across all {summary.matches} games. Hover a bar for the full split.
+        </p>
       </div>
 
       <div className="panel p-4">
         {view === 'composition' ? (
-          <ResponsiveContainer width="100%" height={Math.max(300, compositionData.length * 54)}>
-            <BarChart data={compositionData} layout="vertical" margin={{ left: 10, right: 20 }}>
-              <CartesianGrid horizontal={false} stroke="#ffffff10" />
-              <XAxis type="number" tick={{ fill: '#94a3b8', fontSize: 12 }} stroke="#ffffff20" />
-              <YAxis type="category" dataKey="player" width={60} tick={{ fill: '#e2e8f0', fontSize: 12 }} stroke="#ffffff20" />
-              <Tooltip cursor={{ fill: '#ffffff08' }} contentStyle={tooltipStyle} formatter={(v) => fmtNum(v)} />
-              <Legend wrapperStyle={{ fontSize: 12 }} />
-              <RBar dataKey="Military" stackId="s" fill="#ff2e88" />
-              <RBar dataKey="Economy" stackId="s" fill="#9bff3d" />
-              <RBar dataKey="Technology" stackId="s" fill="#22e7ff" />
-              <RBar dataKey="Society" stackId="s" fill="#a855f7" radius={[0, 6, 6, 0]} />
-            </BarChart>
-          </ResponsiveContainer>
+          <AoeScoreMixChart data={compositionData} totalLabel="Avg Total Score" minHeight={300} />
         ) : (
-          <ResponsiveContainer width="100%" height={Math.max(300, resourceData.length * 54)}>
-            <BarChart data={resourceData} layout="vertical" margin={{ left: 10, right: 20 }}>
-              <CartesianGrid horizontal={false} stroke="#ffffff10" />
-              <XAxis type="number" tick={{ fill: '#94a3b8', fontSize: 12 }} stroke="#ffffff20" />
-              <YAxis type="category" dataKey="player" width={60} tick={{ fill: '#e2e8f0', fontSize: 12 }} stroke="#ffffff20" />
-              <Tooltip cursor={{ fill: '#ffffff08' }} contentStyle={tooltipStyle} formatter={(v) => fmtNum(v)} />
-              <Legend wrapperStyle={{ fontSize: 12 }} />
-              <RBar dataKey="Wood" stackId="r" fill="#84cc16" />
-              <RBar dataKey="Food" stackId="r" fill="#f43f5e" />
-              <RBar dataKey="Gold" stackId="r" fill="#facc15" />
-              <RBar dataKey="Stone" stackId="r" fill="#94a3b8" radius={[0, 6, 6, 0]} />
-            </BarChart>
-          </ResponsiveContainer>
+          <AoeResourceChart data={resourceData} minHeight={300} />
         )}
       </div>
 

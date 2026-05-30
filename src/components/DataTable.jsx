@@ -3,7 +3,7 @@ import { useState, useMemo } from 'react'
 import { ArrowUp, ArrowDown } from 'lucide-react'
 import { Avatar } from './ui.jsx'
 
-export default function DataTable({ columns, rows, initialSort, accent = '#22e7ff' }) {
+export default function DataTable({ columns, rows, initialSort, accent = '#22e7ff', bare = false }) {
   const [sortKey, setSortKey] = useState(initialSort?.key ?? columns[0].key)
   const [dir, setDir] = useState(initialSort?.dir ?? 'desc')
 
@@ -32,8 +32,8 @@ export default function DataTable({ columns, rows, initialSort, accent = '#22e7f
   }
 
   return (
-    <div className="panel overflow-x-auto">
-      <table className="w-full min-w-[640px] text-sm">
+    <div className={`overflow-x-auto ${bare ? '' : 'panel'}`}>
+      <table className={`w-full text-sm ${bare ? '' : 'min-w-[640px]'}`}>
         <thead>
           <tr className="border-b border-edge text-left">
             {columns.map((c) => (

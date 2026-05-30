@@ -40,7 +40,7 @@ export const GAME_META = {
     accent2: '#ffd29d',
     gradient: 'linear-gradient(135deg, #160a1f 0%, #2e1338 50%, #4a1d3f 100%)',
     blurb:
-      'Co-op deckbuilding ascension. Clear Act 1, conquer Act 2, survive without dying. Bonus respect for random-character runs and clean no-mend climbs.',
+      'Co-op deckbuilding ascension. Clear Act 1, conquer Act 2, survive without dying. Bonus respect for random-character runs and mends handed to teammates.',
     primaryMetrics: ['Act 1 win', 'Act 2 win', 'Win/Loss'],
     weight: 0.15,
   },

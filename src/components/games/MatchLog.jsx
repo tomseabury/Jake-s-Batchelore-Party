@@ -1,8 +1,13 @@
 import { useState, useMemo } from 'react'
-import { Trophy, ChevronDown, Globe } from 'lucide-react'
+import { Trophy, ChevronDown, Globe, HeartPulse, Dice5, Table2, Coins } from 'lucide-react'
 import { groupMatches } from '../../lib/data.js'
-import { Avatar } from '../ui.jsx'
+import { Avatar, Segmented } from '../ui.jsx'
 import { fmtTimestamp } from '../../lib/format.js'
+import { AoeScoreMixChart, AoeResourceChart } from './aoeChart.jsx'
+
+const HALO = 'Halo Master Chief Collection'
+const AOE = 'Age of Empires II: Definitive Edition'
+const SPIRE = 'Slay the Spire 2'
 
 function HaloMatch({ match, accent }) {
   const ranked = [...match.rows].sort(
@@ -27,6 +32,106 @@ function HaloMatch({ match, accent }) {
           </div>
         )
       })}
+    </div>
+  )
+}
+
+const badge =
+  'inline-flex shrink-0 items-center gap-1 rounded-md border px-1.5 py-0.5 text-[0.55rem] font-bold uppercase tracking-wider'
+
+function SpireMatch({ match }) {
+  const ranked = [...match.rows].sort(
+    (a, b) => (b.metrics['Win/Loss'] || 0) - (a.metrics['Win/Loss'] || 0),
+  )
+  return (
+    <div className="space-y-1.5">
+      {ranked.map((r) => {
+        const cleared = r.metrics['Win/Loss'] === 1
+        const random = r.metrics['Random Character?'] === 1
+        const mends = r.metrics['Mend Count'] || 0
+        return (
+          <div
+            key={r.id}
+            className="flex flex-wrap items-center gap-2 rounded-lg border border-edge/40 bg-black/20 px-3 py-2"
+          >
+            <Avatar name={r.player} size={28} />
+            <span className="flex-1 font-semibold text-slate-200">{r.player}</span>
+            {mends > 0 && (
+              <span
+                className={badge}
+                style={{ color: '#6ee7b7', borderColor: 'rgba(52,211,153,0.35)', background: 'rgba(52,211,153,0.12)' }}
+                title="Mends given to teammates"
+              >
+                <HeartPulse size={10} /> {mends} mend{mends > 1 ? 's' : ''}
+              </span>
+            )}
+            <span
+              className={badge}
+              style={
+                random
+                  ? { color: '#c084fc', borderColor: 'rgba(168,85,247,0.35)', background: 'rgba(168,85,247,0.12)' }
+                  : { color: '#94a3b8', borderColor: 'rgba(148,163,184,0.3)', background: 'rgba(148,163,184,0.08)' }
+              }
+            >
+              <Dice5 size={10} /> {random ? 'Random' : 'Standard'}
+            </span>
+            {cleared ? (
+              <span
+                className={badge}
+                style={{ color: '#9bff3d', borderColor: 'rgba(155,255,61,0.4)', background: 'rgba(155,255,61,0.12)' }}
+              >
+                <Trophy size={10} /> Cleared
+              </span>
+            ) : (
+              <span
+                className={badge}
+                style={{ color: '#fca5a5', borderColor: 'rgba(248,113,113,0.35)', background: 'rgba(248,113,113,0.14)' }}
+              >
+                Failed
+              </span>
+            )}
+          </div>
+        )
+      })}
+    </div>
+  )
+}
+
+function AoeMatch({ match }) {
+  const [view, setView] = useState('composition')
+  const sorted = [...match.rows].sort((a, b) => (b.metrics.Score || 0) - (a.metrics.Score || 0))
+  const composition = sorted.map((r) => ({
+    player: r.player,
+    Military: r.metrics['Military Score'] || 0,
+    Economy: r.metrics['Economy Score'] || 0,
+    Technology: r.metrics['Technology Score'] || 0,
+    Society: r.metrics['Society Score'] || 0,
+    total: r.metrics.Score || 0,
+  }))
+  const resources = sorted.map((r) => {
+    const wood = r.metrics['Wood Gathered'] || 0
+    const food = r.metrics['Food Gathered'] || 0
+    const gold = r.metrics['Gold Gathered'] || 0
+    const stone = r.metrics['Stone Gathered'] || 0
+    return { player: r.player, Wood: wood, Food: food, Gold: gold, Stone: stone, total: wood + food + gold + stone }
+  })
+  return (
+    <div className="space-y-3">
+      <div className="flex justify-end">
+        <Segmented
+          value={view}
+          onChange={setView}
+          options={[
+            { value: 'composition', label: 'Score Mix', icon: Table2 },
+            { value: 'resources', label: 'Resources', icon: Coins },
+          ]}
+        />
+      </div>
+      {view === 'composition' ? (
+        <AoeScoreMixChart data={composition} totalLabel="Total Score" minHeight={120} />
+      ) : (
+        <AoeResourceChart data={resources} minHeight={120} />
+      )}
     </div>
   )
 }
@@ -56,7 +161,7 @@ function GenericMatch({ match, primaryMetric }) {
 
 function MatchCard({ match, accent, game, primaryMetric, defaultOpen }) {
   const [open, setOpen] = useState(defaultOpen)
-  const isHalo = game === 'Halo Master Chief Collection'
+  const isHalo = game === HALO
   const context = [match.gameName, match.gameType, match.map].filter(Boolean).join(' · ')
 
   // In a local party match there would be both winners and losers present. If
@@ -111,6 +216,10 @@ function MatchCard({ match, accent, game, primaryMetric, defaultOpen }) {
         <div className="border-t border-edge/50 p-4">
           {isHalo ? (
             <HaloMatch match={match} accent={accent} />
+          ) : game === AOE ? (
+            <AoeMatch match={match} />
+          ) : game === SPIRE ? (
+            <SpireMatch match={match} />
           ) : (
             <GenericMatch match={match} primaryMetric={primaryMetric} />
           )}

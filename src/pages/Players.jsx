@@ -21,7 +21,7 @@ function PlayerCard({ entry, rank }) {
     <motion.div
       initial={{ opacity: 0, y: 14 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: rank * 0.05 }}
+      transition={{ delay: Math.min(rank, 8) * 0.05 }}
     >
       <Link
         to={`/players/${encodeURIComponent(entry.player)}`}
@@ -87,7 +87,7 @@ export default function Players() {
           </div>
           <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {guestRanked.map((entry, i) => (
-              <PlayerCard key={entry.player} entry={entry} rank={i + 99} />
+              <PlayerCard key={entry.player} entry={entry} rank={coreRanked.length + i} />
             ))}
           </div>
         </section>

@@ -30,11 +30,11 @@ export default function SpireView({ meta }) {
     { key: 'randomRuns', label: 'Random', align: 'right', mono: true },
     {
       key: 'mends',
-      label: 'Mends',
+      label: 'Mends Given',
       align: 'right',
       mono: true,
       render: (r) => (
-        <span style={{ color: r.mends > 0 ? '#f87171' : '#64748b' }}>{r.mends}</span>
+        <span style={{ color: r.mends > 0 ? '#34d399' : '#64748b' }}>{r.mends}</span>
       ),
     },
   ]
@@ -45,13 +45,15 @@ export default function SpireView({ meta }) {
         <StatTile label="Co-op Runs" value={fmtNum(summary.runs)} accent={meta.accent} icon={Layers} />
         <StatTile label="Total Clears" value={fmtNum(summary.wins)} accent="#9bff3d" icon={Trophy} />
         <StatTile label="Random Runs" value={fmtNum(summary.random)} accent="#a855f7" icon={Dice5} />
-        <StatTile label="Mends Used" value={fmtNum(summary.mends)} accent="#f87171" icon={HeartPulse} />
+        <StatTile label="Mends Given" value={fmtNum(summary.mends)} accent="#34d399" icon={HeartPulse} />
       </div>
 
       <div className="panel p-4 text-sm text-slate-300">
         Every logged run was a full clear (Act 1 + Act 2). The differentiators are
         harder <span className="text-spire">random-character</span> runs and
-        how many <span className="text-red-400">mends</span> (teammate revives) were needed.
+        how many <span className="text-emerald-400">mends</span> a player handed out
+        — a mend is a clutch save given to a teammate, so more mends is a good thing
+        and <span className="text-emerald-400">boosts</span> their Ultimate score.
       </div>
 
       <DataTable columns={columns} rows={stats} initialSort={{ key: 'wins', dir: 'desc' }} accent={meta.accent} />
