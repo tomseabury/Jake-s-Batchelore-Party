@@ -1,0 +1,2502 @@
+{
+  "generatedAt": "2026-05-30T09:52:16.542Z",
+  "source": "Untitled spreadsheet - Stats.csv",
+  "recordCount": 166,
+  "records": [
+    {
+      "id": 0,
+      "timestamp": "3/26/2026 22:25:54",
+      "date": "2026-03-26",
+      "player": "AJ",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Team Slayer",
+        "Map Name": "Lockdown",
+        "Kills": 13,
+        "Deaths": 20,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 1,
+      "timestamp": "3/26/2026 22:25:54",
+      "date": "2026-03-26",
+      "player": "Jace",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Team Slayer",
+        "Map Name": "Lockdown",
+        "Kills": 19,
+        "Deaths": 17,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 2,
+      "timestamp": "3/26/2026 22:25:54",
+      "date": "2026-03-26",
+      "player": "Tom",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Team Slayer",
+        "Map Name": "Lockdown",
+        "Kills": 13,
+        "Deaths": 19,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 3,
+      "timestamp": "3/26/2026 22:25:54",
+      "date": "2026-03-26",
+      "player": "J-Mart",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Team Slayer",
+        "Map Name": "Lockdown",
+        "Kills": 13,
+        "Deaths": 11,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 4,
+      "timestamp": "3/26/2026 22:25:54",
+      "date": "2026-03-26",
+      "player": "Jake",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Team Slayer",
+        "Map Name": "Lockdown",
+        "Kills": 29,
+        "Deaths": 10,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 5,
+      "timestamp": "3/26/2026 22:25:54",
+      "date": "2026-03-26",
+      "player": "Fred",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Team Slayer",
+        "Map Name": "Lockdown",
+        "Kills": 7,
+        "Deaths": 15,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 6,
+      "timestamp": "3/26/2026 22:25:54",
+      "date": "2026-03-26",
+      "player": "Steph",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Team Slayer",
+        "Map Name": "Lockdown",
+        "Kills": 6,
+        "Deaths": 14,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 7,
+      "timestamp": "3/26/2026 22:42:04",
+      "date": "2026-03-26",
+      "player": "AJ",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Team Slayer",
+        "Map Name": "Stonetown",
+        "Kills": 11,
+        "Deaths": 8,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 8,
+      "timestamp": "3/26/2026 22:42:04",
+      "date": "2026-03-26",
+      "player": "Jace",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Team Slayer",
+        "Map Name": "Stonetown",
+        "Kills": 17,
+        "Deaths": 9,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 9,
+      "timestamp": "3/26/2026 22:42:04",
+      "date": "2026-03-26",
+      "player": "Tom",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Map Name": "Stonetown",
+        "Kills": 14,
+        "Deaths": 12,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 10,
+      "timestamp": "3/26/2026 22:42:04",
+      "date": "2026-03-26",
+      "player": "J-Mart",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Team Slayer",
+        "Map Name": "Stonetown",
+        "Kills": 4,
+        "Deaths": 5,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 11,
+      "timestamp": "3/26/2026 22:42:04",
+      "date": "2026-03-26",
+      "player": "Jake",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Team Slayer",
+        "Map Name": "Stonetown",
+        "Kills": 17,
+        "Deaths": 12,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 12,
+      "timestamp": "3/26/2026 22:42:04",
+      "date": "2026-03-26",
+      "player": "Fred",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Team Slayer",
+        "Map Name": "Stonetown",
+        "Kills": 2,
+        "Deaths": 15,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 13,
+      "timestamp": "3/26/2026 22:42:04",
+      "date": "2026-03-26",
+      "player": "Steph",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Team Slayer",
+        "Map Name": "Stonetown",
+        "Kills": 5,
+        "Deaths": 10,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 14,
+      "timestamp": "3/26/2026 22:56:26",
+      "date": "2026-03-26",
+      "player": "AJ",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Gun Game",
+        "Map Name": "Lockdown",
+        "Kills": 12,
+        "Deaths": 13,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 15,
+      "timestamp": "3/26/2026 22:56:26",
+      "date": "2026-03-26",
+      "player": "Jace",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Gun Game",
+        "Map Name": "Lockdown",
+        "Kills": 17,
+        "Deaths": 17,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 16,
+      "timestamp": "3/26/2026 22:56:26",
+      "date": "2026-03-26",
+      "player": "Tom",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Gun Game",
+        "Map Name": "Lockdown",
+        "Kills": 16,
+        "Deaths": 20,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 17,
+      "timestamp": "3/26/2026 22:56:26",
+      "date": "2026-03-26",
+      "player": "J-Mart",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Gun Game",
+        "Map Name": "Lockdown",
+        "Kills": 15,
+        "Deaths": 10,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 18,
+      "timestamp": "3/26/2026 22:56:26",
+      "date": "2026-03-26",
+      "player": "Jake",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Gun Game",
+        "Map Name": "Lockdown",
+        "Kills": 19,
+        "Deaths": 15,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 19,
+      "timestamp": "3/26/2026 22:56:26",
+      "date": "2026-03-26",
+      "player": "Fred",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Gun Game",
+        "Map Name": "Lockdown",
+        "Kills": 8,
+        "Deaths": 8,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 20,
+      "timestamp": "3/26/2026 22:56:26",
+      "date": "2026-03-26",
+      "player": "Steph",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Gun Game",
+        "Map Name": "Lockdown",
+        "Kills": 5,
+        "Deaths": 12,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 21,
+      "timestamp": "3/26/2026 23:20:43",
+      "date": "2026-03-26",
+      "player": "AJ",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Shotty Snipes",
+        "Map Name": "The Pit",
+        "Kills": 9,
+        "Deaths": 13,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 22,
+      "timestamp": "3/26/2026 23:20:43",
+      "date": "2026-03-26",
+      "player": "Jace",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Shotty Snipes",
+        "Map Name": "The Pit",
+        "Kills": 20,
+        "Deaths": 11,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 23,
+      "timestamp": "3/26/2026 23:20:43",
+      "date": "2026-03-26",
+      "player": "Tom",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Shotty Snipes",
+        "Map Name": "The Pit",
+        "Kills": 21,
+        "Deaths": 10,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 24,
+      "timestamp": "3/26/2026 23:20:43",
+      "date": "2026-03-26",
+      "player": "J-Mart",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Shotty Snipes",
+        "Map Name": "The Pit",
+        "Kills": 13,
+        "Deaths": 9,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 25,
+      "timestamp": "3/26/2026 23:20:43",
+      "date": "2026-03-26",
+      "player": "Jake",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Shotty Snipes",
+        "Map Name": "The Pit",
+        "Kills": 14,
+        "Deaths": 18,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 26,
+      "timestamp": "3/26/2026 23:20:43",
+      "date": "2026-03-26",
+      "player": "Fred",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Shotty Snipes",
+        "Map Name": "The Pit",
+        "Kills": 3,
+        "Deaths": 9,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 27,
+      "timestamp": "3/26/2026 23:20:43",
+      "date": "2026-03-26",
+      "player": "Steph",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Shotty Snipes",
+        "Map Name": "The Pit",
+        "Kills": 4,
+        "Deaths": 14,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 28,
+      "timestamp": "3/26/2026 23:32:12",
+      "date": "2026-03-26",
+      "player": "AJ",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Blackout",
+        "Kills": 9,
+        "Deaths": 12,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 29,
+      "timestamp": "3/26/2026 23:32:12",
+      "date": "2026-03-26",
+      "player": "Jace",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Blackout",
+        "Kills": 19,
+        "Deaths": 23,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 30,
+      "timestamp": "3/26/2026 23:32:12",
+      "date": "2026-03-26",
+      "player": "Tom",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Blackout",
+        "Kills": 23,
+        "Deaths": 12,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 31,
+      "timestamp": "3/26/2026 23:32:12",
+      "date": "2026-03-26",
+      "player": "J-Mart",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Blackout",
+        "Kills": 11,
+        "Deaths": 12,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 32,
+      "timestamp": "3/26/2026 23:32:12",
+      "date": "2026-03-26",
+      "player": "Jake",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Blackout",
+        "Kills": 26,
+        "Deaths": 17,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 33,
+      "timestamp": "3/26/2026 23:32:12",
+      "date": "2026-03-26",
+      "player": "Fred",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Blackout",
+        "Kills": 5,
+        "Deaths": 8,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 34,
+      "timestamp": "3/26/2026 23:32:12",
+      "date": "2026-03-26",
+      "player": "Steph",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Blackout",
+        "Kills": 4,
+        "Deaths": 15,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 35,
+      "timestamp": "3/26/2026 23:46:11",
+      "date": "2026-03-26",
+      "player": "AJ",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Bar Fight",
+        "Map Name": "Blackout",
+        "Kills": 18,
+        "Deaths": 17,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 36,
+      "timestamp": "3/26/2026 23:46:11",
+      "date": "2026-03-26",
+      "player": "Jace",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Bar Fight",
+        "Map Name": "Blackout",
+        "Kills": 22,
+        "Deaths": 23,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 37,
+      "timestamp": "3/26/2026 23:46:11",
+      "date": "2026-03-26",
+      "player": "Tom",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Bar Fight",
+        "Map Name": "Blackout",
+        "Kills": 28,
+        "Deaths": 20,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 38,
+      "timestamp": "3/26/2026 23:46:11",
+      "date": "2026-03-26",
+      "player": "J-Mart",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Bar Fight",
+        "Map Name": "Blackout",
+        "Kills": 16,
+        "Deaths": 16,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 39,
+      "timestamp": "3/26/2026 23:46:11",
+      "date": "2026-03-26",
+      "player": "Jake",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Bar Fight",
+        "Map Name": "Blackout",
+        "Kills": 22,
+        "Deaths": 21,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 40,
+      "timestamp": "3/26/2026 23:46:11",
+      "date": "2026-03-26",
+      "player": "Fred",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Bar Fight",
+        "Map Name": "Blackout",
+        "Kills": 22,
+        "Deaths": 21,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 41,
+      "timestamp": "3/26/2026 23:46:11",
+      "date": "2026-03-26",
+      "player": "Steph",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Bar Fight",
+        "Map Name": "Blackout",
+        "Kills": 9,
+        "Deaths": 22,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 42,
+      "timestamp": "3/27/2026 0:15:23",
+      "date": "2026-03-27",
+      "player": "AJ",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2",
+        "Game Type": "Tower of Power",
+        "Map Name": "Ascension",
+        "Kills": 20,
+        "Deaths": 42,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 43,
+      "timestamp": "3/27/2026 0:15:23",
+      "date": "2026-03-27",
+      "player": "Jace",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2",
+        "Game Type": "Tower of Power",
+        "Map Name": "Ascension",
+        "Kills": 43,
+        "Deaths": 21,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 44,
+      "timestamp": "3/27/2026 0:15:23",
+      "date": "2026-03-27",
+      "player": "Tom",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2",
+        "Game Type": "Tower of Power",
+        "Map Name": "Ascension",
+        "Kills": 26,
+        "Deaths": 42,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 45,
+      "timestamp": "3/27/2026 0:15:23",
+      "date": "2026-03-27",
+      "player": "J-Mart",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2",
+        "Game Type": "Tower of Power",
+        "Map Name": "Ascension",
+        "Kills": 14,
+        "Deaths": 23,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 46,
+      "timestamp": "3/27/2026 0:15:23",
+      "date": "2026-03-27",
+      "player": "Jake",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2",
+        "Game Type": "Tower of Power",
+        "Map Name": "Ascension",
+        "Kills": 60,
+        "Deaths": 17,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 47,
+      "timestamp": "3/27/2026 0:15:23",
+      "date": "2026-03-27",
+      "player": "Fred",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2",
+        "Game Type": "Tower of Power",
+        "Map Name": "Ascension",
+        "Kills": 16,
+        "Deaths": 19,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 48,
+      "timestamp": "3/27/2026 0:15:23",
+      "date": "2026-03-27",
+      "player": "Steph",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2",
+        "Game Type": "Tower of Power",
+        "Map Name": "Ascension",
+        "Kills": 12,
+        "Deaths": 32,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 49,
+      "timestamp": "3/27/2026 0:42:59",
+      "date": "2026-03-27",
+      "player": "AJ",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Vehicle",
+        "Map Name": "Bloodline",
+        "Kills": 15,
+        "Deaths": 15,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 50,
+      "timestamp": "3/27/2026 0:42:59",
+      "date": "2026-03-27",
+      "player": "Jace",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Vehicle",
+        "Map Name": "Bloodline",
+        "Kills": 25,
+        "Deaths": 8,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 51,
+      "timestamp": "3/27/2026 0:42:59",
+      "date": "2026-03-27",
+      "player": "Tom",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Vehicle",
+        "Map Name": "Bloodline",
+        "Kills": 10,
+        "Deaths": 13,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 52,
+      "timestamp": "3/27/2026 0:42:59",
+      "date": "2026-03-27",
+      "player": "J-Mart",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Vehicle",
+        "Map Name": "Bloodline",
+        "Kills": 6,
+        "Deaths": 8,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 53,
+      "timestamp": "3/27/2026 0:42:59",
+      "date": "2026-03-27",
+      "player": "Jake",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Vehicle",
+        "Map Name": "Bloodline",
+        "Kills": 19,
+        "Deaths": 15,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 54,
+      "timestamp": "3/27/2026 0:42:59",
+      "date": "2026-03-27",
+      "player": "Fred",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Vehicle",
+        "Map Name": "Bloodline",
+        "Kills": 5,
+        "Deaths": 14,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 55,
+      "timestamp": "3/27/2026 0:42:59",
+      "date": "2026-03-27",
+      "player": "Steph",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Vehicle",
+        "Map Name": "Bloodline",
+        "Kills": 5,
+        "Deaths": 14,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 56,
+      "timestamp": "3/27/2026 1:06:48",
+      "date": "2026-03-27",
+      "player": "AJ",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Random Weapon",
+        "Map Name": "Guardian",
+        "Kills": 25,
+        "Deaths": 37,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 57,
+      "timestamp": "3/27/2026 1:06:48",
+      "date": "2026-03-27",
+      "player": "Jace",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Random Weapon",
+        "Map Name": "Guardian",
+        "Kills": 51,
+        "Deaths": 30,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 58,
+      "timestamp": "3/27/2026 1:06:48",
+      "date": "2026-03-27",
+      "player": "Tom",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Random Weapon",
+        "Map Name": "Guardian",
+        "Kills": 37,
+        "Deaths": 39,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 59,
+      "timestamp": "3/27/2026 1:06:48",
+      "date": "2026-03-27",
+      "player": "J-Mart",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Random Weapon",
+        "Map Name": "Guardian",
+        "Kills": 44,
+        "Deaths": 33,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 60,
+      "timestamp": "3/27/2026 1:06:48",
+      "date": "2026-03-27",
+      "player": "Jake",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Random Weapon",
+        "Map Name": "Guardian",
+        "Kills": 46,
+        "Deaths": 36,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 61,
+      "timestamp": "3/27/2026 1:06:48",
+      "date": "2026-03-27",
+      "player": "Fred",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Random Weapon",
+        "Map Name": "Guardian",
+        "Kills": 25,
+        "Deaths": 41,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 62,
+      "timestamp": "3/27/2026 1:06:48",
+      "date": "2026-03-27",
+      "player": "Steph",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Random Weapon",
+        "Map Name": "Guardian",
+        "Kills": 18,
+        "Deaths": 32,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 63,
+      "timestamp": "3/27/2026 15:01:10",
+      "date": "2026-03-27",
+      "player": "J-Mart",
+      "game": "Slay the Spire 2",
+      "metrics": {
+        "Act 1 win": 1,
+        "Act 2 win": 1,
+        "Win/Loss": 1,
+        "Random Character?": 0,
+        "Deaths": 0,
+        "Mend Count": 0
+      }
+    },
+    {
+      "id": 64,
+      "timestamp": "3/27/2026 15:01:10",
+      "date": "2026-03-27",
+      "player": "Jace",
+      "game": "Slay the Spire 2",
+      "metrics": {
+        "Act 1 win": 1,
+        "Act 2 win": 1,
+        "Win/Loss": 1,
+        "Random Character?": 0,
+        "Deaths": 0,
+        "Mend Count": 0
+      }
+    },
+    {
+      "id": 65,
+      "timestamp": "3/27/2026 15:01:10",
+      "date": "2026-03-27",
+      "player": "Jake",
+      "game": "Slay the Spire 2",
+      "metrics": {
+        "Act 1 win": 1,
+        "Act 2 win": 1,
+        "Win/Loss": 1,
+        "Random Character?": 0,
+        "Deaths": 0,
+        "Mend Count": 0
+      }
+    },
+    {
+      "id": 66,
+      "timestamp": "3/27/2026 15:32:12",
+      "date": "2026-03-27",
+      "player": "J-Mart",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2",
+        "Game Type": "Swat",
+        "Map Name": "Beaver Creek",
+        "Kills": 8,
+        "Deaths": 3,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 67,
+      "timestamp": "3/27/2026 15:32:12",
+      "date": "2026-03-27",
+      "player": "Jake",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2",
+        "Game Type": "Swat",
+        "Map Name": "Beaver Creek",
+        "Kills": 18,
+        "Deaths": 3,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 68,
+      "timestamp": "3/27/2026 15:32:12",
+      "date": "2026-03-27",
+      "player": "Jace",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2",
+        "Game Type": "Swat",
+        "Map Name": "Beaver Creek",
+        "Kills": 11,
+        "Deaths": 1,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 69,
+      "timestamp": "3/27/2026 15:32:12",
+      "date": "2026-03-27",
+      "player": "Tom",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2",
+        "Game Type": "Swat",
+        "Map Name": "Beaver Creek",
+        "Kills": 13,
+        "Deaths": 4,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 70,
+      "timestamp": "3/27/2026 15:37:02",
+      "date": "2026-03-27",
+      "player": "J-Mart",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Cold Storage",
+        "Kills": 3,
+        "Deaths": 13,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 71,
+      "timestamp": "3/27/2026 15:37:02",
+      "date": "2026-03-27",
+      "player": "Jake",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Cold Storage",
+        "Kills": 10,
+        "Deaths": 10,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 72,
+      "timestamp": "3/27/2026 15:37:02",
+      "date": "2026-03-27",
+      "player": "Jace",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Cold Storage",
+        "Kills": 8,
+        "Deaths": 13,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 73,
+      "timestamp": "3/27/2026 15:37:02",
+      "date": "2026-03-27",
+      "player": "Tom",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Cold Storage",
+        "Kills": 4,
+        "Deaths": 14,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 74,
+      "timestamp": "3/27/2026 15:43:57",
+      "date": "2026-03-27",
+      "player": "J-Mart",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Citadel",
+        "Kills": 10,
+        "Deaths": 8,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 75,
+      "timestamp": "3/27/2026 15:43:57",
+      "date": "2026-03-27",
+      "player": "Jake",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Citadel",
+        "Kills": 21,
+        "Deaths": 13,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 76,
+      "timestamp": "3/27/2026 15:43:57",
+      "date": "2026-03-27",
+      "player": "Jace",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Citadel",
+        "Kills": 10,
+        "Deaths": 12,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 77,
+      "timestamp": "3/27/2026 15:43:57",
+      "date": "2026-03-27",
+      "player": "Tom",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Citadel",
+        "Kills": 9,
+        "Deaths": 12,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 78,
+      "timestamp": "3/27/2026 15:54:50",
+      "date": "2026-03-27",
+      "player": "J-Mart",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2",
+        "Game Type": "Snipers",
+        "Map Name": "Ivory Tower",
+        "Kills": 14,
+        "Deaths": 8,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 79,
+      "timestamp": "3/27/2026 15:54:50",
+      "date": "2026-03-27",
+      "player": "Jake",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2",
+        "Game Type": "Snipers",
+        "Map Name": "Ivory Tower",
+        "Kills": 15,
+        "Deaths": 7,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 80,
+      "timestamp": "3/27/2026 15:54:50",
+      "date": "2026-03-27",
+      "player": "Jace",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2",
+        "Game Type": "Snipers",
+        "Map Name": "Ivory Tower",
+        "Kills": 13,
+        "Deaths": 11,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 81,
+      "timestamp": "3/27/2026 15:54:50",
+      "date": "2026-03-27",
+      "player": "Tom",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2",
+        "Game Type": "Snipers",
+        "Map Name": "Ivory Tower",
+        "Kills": 8,
+        "Deaths": 7,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 82,
+      "timestamp": "3/27/2026 16:02:11",
+      "date": "2026-03-27",
+      "player": "J-Mart",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2",
+        "Game Type": "Snipers",
+        "Map Name": "Turf",
+        "Kills": 10,
+        "Deaths": 6,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 83,
+      "timestamp": "3/27/2026 16:02:11",
+      "date": "2026-03-27",
+      "player": "Jake",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2",
+        "Game Type": "Snipers",
+        "Map Name": "Turf",
+        "Kills": 14,
+        "Deaths": 9,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 84,
+      "timestamp": "3/27/2026 16:02:11",
+      "date": "2026-03-27",
+      "player": "Jace",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2",
+        "Game Type": "Snipers",
+        "Map Name": "Turf",
+        "Kills": 13,
+        "Deaths": 7,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 85,
+      "timestamp": "3/27/2026 16:02:11",
+      "date": "2026-03-27",
+      "player": "Tom",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2",
+        "Game Type": "Snipers",
+        "Map Name": "Turf",
+        "Kills": 13,
+        "Deaths": 11,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 86,
+      "timestamp": "3/27/2026 16:22:24",
+      "date": "2026-03-27",
+      "player": "J-Mart",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Team Slayer",
+        "Map Name": "Standoff",
+        "Kills": 4,
+        "Deaths": 8,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 87,
+      "timestamp": "3/27/2026 16:22:24",
+      "date": "2026-03-27",
+      "player": "Jake",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Team Slayer",
+        "Map Name": "Standoff",
+        "Kills": 6,
+        "Deaths": 16,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 88,
+      "timestamp": "3/27/2026 16:22:24",
+      "date": "2026-03-27",
+      "player": "Jace",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Team Slayer",
+        "Map Name": "Standoff",
+        "Kills": 11,
+        "Deaths": 6,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 89,
+      "timestamp": "3/27/2026 16:22:24",
+      "date": "2026-03-27",
+      "player": "Tom",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Team Slayer",
+        "Map Name": "Standoff",
+        "Kills": 6,
+        "Deaths": 22,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 90,
+      "timestamp": "3/27/2026 16:22:24",
+      "date": "2026-03-27",
+      "player": "Steph",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Team Slayer",
+        "Map Name": "Standoff",
+        "Kills": 2,
+        "Deaths": 22,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 91,
+      "timestamp": "3/27/2026 16:31:34",
+      "date": "2026-03-27",
+      "player": "J-Mart",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Swat",
+        "Map Name": "Warlord",
+        "Kills": 9,
+        "Deaths": 6,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 92,
+      "timestamp": "3/27/2026 16:31:34",
+      "date": "2026-03-27",
+      "player": "Jace",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Swat",
+        "Map Name": "Warlord",
+        "Kills": 9,
+        "Deaths": 12,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 93,
+      "timestamp": "3/27/2026 16:31:34",
+      "date": "2026-03-27",
+      "player": "Tom",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Swat",
+        "Map Name": "Warlord",
+        "Kills": 12,
+        "Deaths": 17,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 94,
+      "timestamp": "3/27/2026 16:31:34",
+      "date": "2026-03-27",
+      "player": "Steph",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Swat",
+        "Map Name": "Warlord",
+        "Kills": 4,
+        "Deaths": 15,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 95,
+      "timestamp": "3/27/2026 16:43:32",
+      "date": "2026-03-27",
+      "player": "AJ",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Team Slayer",
+        "Map Name": "Epilogue",
+        "Kills": 6,
+        "Deaths": 11,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 96,
+      "timestamp": "3/27/2026 16:43:32",
+      "date": "2026-03-27",
+      "player": "Jace",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Team Slayer",
+        "Map Name": "Epilogue",
+        "Kills": 15,
+        "Deaths": 10,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 97,
+      "timestamp": "3/27/2026 16:43:32",
+      "date": "2026-03-27",
+      "player": "Tom",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Team Slayer",
+        "Map Name": "Epilogue",
+        "Kills": 13,
+        "Deaths": 15,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 98,
+      "timestamp": "3/27/2026 16:43:32",
+      "date": "2026-03-27",
+      "player": "Steph",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Team Slayer",
+        "Map Name": "Epilogue",
+        "Kills": 9,
+        "Deaths": 14,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 99,
+      "timestamp": "3/27/2026 16:51:40",
+      "date": "2026-03-27",
+      "player": "AJ",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Orbital",
+        "Kills": 7,
+        "Deaths": 13,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 100,
+      "timestamp": "3/27/2026 16:51:40",
+      "date": "2026-03-27",
+      "player": "Jace",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Orbital",
+        "Kills": 20,
+        "Deaths": 15,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 101,
+      "timestamp": "3/27/2026 16:51:40",
+      "date": "2026-03-27",
+      "player": "Tom",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Orbital",
+        "Kills": 15,
+        "Deaths": 12,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 102,
+      "timestamp": "3/27/2026 16:51:40",
+      "date": "2026-03-27",
+      "player": "Steph",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Orbital",
+        "Kills": 4,
+        "Deaths": 10,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 103,
+      "timestamp": "3/27/2026 17:00:30",
+      "date": "2026-03-27",
+      "player": "AJ",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Team Slayer",
+        "Map Name": "Shrine",
+        "Kills": 7,
+        "Deaths": 13,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 104,
+      "timestamp": "3/27/2026 17:00:30",
+      "date": "2026-03-27",
+      "player": "Jace",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Team Slayer",
+        "Map Name": "Shrine",
+        "Kills": 12,
+        "Deaths": 13,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 105,
+      "timestamp": "3/27/2026 17:00:30",
+      "date": "2026-03-27",
+      "player": "Tom",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Team Slayer",
+        "Map Name": "Shrine",
+        "Kills": 6,
+        "Deaths": 11,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 106,
+      "timestamp": "3/27/2026 17:00:30",
+      "date": "2026-03-27",
+      "player": "Steph",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Team Slayer",
+        "Map Name": "Shrine",
+        "Kills": 4,
+        "Deaths": 13,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 107,
+      "timestamp": "3/27/2026 17:06:44",
+      "date": "2026-03-27",
+      "player": "AJ",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "The Pit",
+        "Kills": 7,
+        "Deaths": 6,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 108,
+      "timestamp": "3/27/2026 17:06:44",
+      "date": "2026-03-27",
+      "player": "Jace",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "The Pit",
+        "Kills": 26,
+        "Deaths": 8,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 109,
+      "timestamp": "3/27/2026 17:06:44",
+      "date": "2026-03-27",
+      "player": "Tom",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "The Pit",
+        "Kills": 14,
+        "Deaths": 7,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 110,
+      "timestamp": "3/27/2026 17:06:44",
+      "date": "2026-03-27",
+      "player": "Steph",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "The Pit",
+        "Kills": 3,
+        "Deaths": 3,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 111,
+      "timestamp": "3/27/2026 17:13:55",
+      "date": "2026-03-27",
+      "player": "AJ",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Swat",
+        "Map Name": "Warlord",
+        "Kills": 9,
+        "Deaths": 16,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 112,
+      "timestamp": "3/27/2026 17:13:55",
+      "date": "2026-03-27",
+      "player": "Jace",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Swat",
+        "Map Name": "Warlord",
+        "Kills": 25,
+        "Deaths": 9,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 113,
+      "timestamp": "3/27/2026 17:13:55",
+      "date": "2026-03-27",
+      "player": "Tom",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Swat",
+        "Map Name": "Warlord",
+        "Kills": 12,
+        "Deaths": 13,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 114,
+      "timestamp": "3/27/2026 17:13:55",
+      "date": "2026-03-27",
+      "player": "Steph",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Swat",
+        "Map Name": "Warlord",
+        "Kills": 2,
+        "Deaths": 14,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 115,
+      "timestamp": "3/27/2026 23:50:48",
+      "date": "2026-03-27",
+      "player": "Jake",
+      "game": "Doom + Doom 2 - Co-op",
+      "metrics": {
+        "Keys Found": 3
+      }
+    },
+    {
+      "id": 116,
+      "timestamp": "3/27/2026 23:50:48",
+      "date": "2026-03-27",
+      "player": "J-Mart",
+      "game": "Doom + Doom 2 - Co-op",
+      "metrics": {
+        "Keys Found": 1
+      }
+    },
+    {
+      "id": 117,
+      "timestamp": "3/27/2026 23:50:48",
+      "date": "2026-03-27",
+      "player": "Fred",
+      "game": "Doom + Doom 2 - Co-op",
+      "metrics": {
+        "Keys Found": 0
+      }
+    },
+    {
+      "id": 118,
+      "timestamp": "3/27/2026 23:50:48",
+      "date": "2026-03-27",
+      "player": "Steph",
+      "game": "Doom + Doom 2 - Co-op",
+      "metrics": {
+        "Keys Found": 2
+      }
+    },
+    {
+      "id": 119,
+      "timestamp": "3/27/2026 23:50:48",
+      "date": "2026-03-27",
+      "player": "Tom",
+      "game": "Doom + Doom 2 - Co-op",
+      "metrics": {
+        "Keys Found": 1
+      }
+    },
+    {
+      "id": 120,
+      "timestamp": "3/27/2026 23:50:48",
+      "date": "2026-03-27",
+      "player": "Jace",
+      "game": "Doom + Doom 2 - Co-op",
+      "metrics": {
+        "Keys Found": 1
+      }
+    },
+    {
+      "id": 121,
+      "timestamp": "3/27/2026 23:50:48",
+      "date": "2026-03-27",
+      "player": "AJ",
+      "game": "Doom + Doom 2 - Co-op",
+      "metrics": {
+        "Keys Found": 0
+      }
+    },
+    {
+      "id": 122,
+      "timestamp": "3/28/2026 0:59:30",
+      "date": "2026-03-28",
+      "player": "Jake",
+      "game": "Age of Empires II: Definitive Edition",
+      "metrics": {
+        "Score": 12007,
+        "Win/Loss": 1,
+        "Economy Score": 5104,
+        "Military Score": 2878,
+        "Technology Score": 3635,
+        "Society Score": 390,
+        "Wood Gathered": 17311,
+        "Stone Gathered": 0,
+        "Food Gathered": 16369,
+        "Gold Gathered": 24397
+      }
+    },
+    {
+      "id": 123,
+      "timestamp": "3/28/2026 0:59:30",
+      "date": "2026-03-28",
+      "player": "Fred",
+      "game": "Age of Empires II: Definitive Edition",
+      "metrics": {
+        "Score": 2793,
+        "Win/Loss": 1,
+        "Economy Score": 1383,
+        "Military Score": 14,
+        "Technology Score": 1396,
+        "Society Score": 0,
+        "Wood Gathered": 7070,
+        "Stone Gathered": 0,
+        "Food Gathered": 5860,
+        "Gold Gathered": 3099
+      }
+    },
+    {
+      "id": 124,
+      "timestamp": "3/28/2026 0:59:30",
+      "date": "2026-03-28",
+      "player": "Steph",
+      "game": "Age of Empires II: Definitive Edition",
+      "metrics": {
+        "Score": 1692,
+        "Win/Loss": 1,
+        "Economy Score": 771,
+        "Military Score": 346,
+        "Technology Score": 575,
+        "Society Score": 0,
+        "Wood Gathered": 3540,
+        "Stone Gathered": 0,
+        "Food Gathered": 4542,
+        "Gold Gathered": 1857
+      }
+    },
+    {
+      "id": 125,
+      "timestamp": "3/28/2026 0:59:30",
+      "date": "2026-03-28",
+      "player": "Jace",
+      "game": "Age of Empires II: Definitive Edition",
+      "metrics": {
+        "Score": 6325,
+        "Win/Loss": 1,
+        "Economy Score": 3513,
+        "Military Score": 394,
+        "Technology Score": 2290,
+        "Society Score": 130,
+        "Wood Gathered": 18856,
+        "Stone Gathered": 0,
+        "Food Gathered": 14563,
+        "Gold Gathered": 8760
+      }
+    },
+    {
+      "id": 126,
+      "timestamp": "3/28/2026 0:59:30",
+      "date": "2026-03-28",
+      "player": "Tom",
+      "game": "Age of Empires II: Definitive Edition",
+      "metrics": {
+        "Score": 7955,
+        "Win/Loss": 1,
+        "Economy Score": 2614,
+        "Military Score": 3467,
+        "Technology Score": 1744,
+        "Society Score": 130,
+        "Wood Gathered": 17540,
+        "Stone Gathered": 0,
+        "Food Gathered": 10777,
+        "Gold Gathered": 14352
+      }
+    },
+    {
+      "id": 127,
+      "timestamp": "3/28/2026 12:45:14",
+      "date": "2026-03-28",
+      "player": "Jake",
+      "game": "Slay the Spire 2",
+      "metrics": {
+        "Act 1 win": 1,
+        "Act 2 win": 1,
+        "Win/Loss": 1,
+        "Random Character?": 1,
+        "Deaths": 0
+      }
+    },
+    {
+      "id": 128,
+      "timestamp": "3/28/2026 12:45:14",
+      "date": "2026-03-28",
+      "player": "J-Mart",
+      "game": "Slay the Spire 2",
+      "metrics": {
+        "Act 1 win": 1,
+        "Act 2 win": 1,
+        "Win/Loss": 1,
+        "Random Character?": 1,
+        "Deaths": 0
+      }
+    },
+    {
+      "id": 129,
+      "timestamp": "3/28/2026 12:45:14",
+      "date": "2026-03-28",
+      "player": "Jace",
+      "game": "Slay the Spire 2",
+      "metrics": {
+        "Act 1 win": 1,
+        "Act 2 win": 1,
+        "Win/Loss": 1,
+        "Random Character?": 1,
+        "Deaths": 0
+      }
+    },
+    {
+      "id": 130,
+      "timestamp": "3/28/2026 12:45:14",
+      "date": "2026-03-28",
+      "player": "Tom",
+      "game": "Slay the Spire 2",
+      "metrics": {
+        "Act 1 win": 1,
+        "Act 2 win": 1,
+        "Win/Loss": 1,
+        "Random Character?": 1,
+        "Deaths": 0,
+        "Mend Count": 3
+      }
+    },
+    {
+      "id": 131,
+      "timestamp": "3/28/2026 14:05:06",
+      "date": "2026-03-28",
+      "player": "Jake",
+      "game": "Age of Empires II: Definitive Edition",
+      "metrics": {
+        "Score": 30263,
+        "Win/Loss": 1,
+        "Economy Score": 7969,
+        "Military Score": 14514,
+        "Technology Score": 7130,
+        "Society Score": 650,
+        "Wood Gathered": 35783,
+        "Stone Gathered": 5235,
+        "Food Gathered": 41527,
+        "Gold Gathered": 34021
+      }
+    },
+    {
+      "id": 132,
+      "timestamp": "3/28/2026 14:05:06",
+      "date": "2026-03-28",
+      "player": "J-Mart",
+      "game": "Age of Empires II: Definitive Edition",
+      "metrics": {
+        "Score": 3475,
+        "Win/Loss": 1,
+        "Economy Score": 1355,
+        "Military Score": 16,
+        "Technology Score": 1974,
+        "Society Score": 130,
+        "Wood Gathered": 4706,
+        "Stone Gathered": 1051,
+        "Food Gathered": 8388,
+        "Gold Gathered": 4176
+      }
+    },
+    {
+      "id": 133,
+      "timestamp": "3/28/2026 14:05:06",
+      "date": "2026-03-28",
+      "player": "Steph",
+      "game": "Age of Empires II: Definitive Edition",
+      "metrics": {
+        "Score": 6855,
+        "Win/Loss": 1,
+        "Economy Score": 3441,
+        "Military Score": 54,
+        "Technology Score": 2970,
+        "Society Score": 390,
+        "Wood Gathered": 10681,
+        "Stone Gathered": 2132,
+        "Food Gathered": 14875,
+        "Gold Gathered": 13511
+      }
+    },
+    {
+      "id": 134,
+      "timestamp": "3/28/2026 14:05:06",
+      "date": "2026-03-28",
+      "player": "Tom",
+      "game": "Age of Empires II: Definitive Edition",
+      "metrics": {
+        "Score": 19198,
+        "Win/Loss": 1,
+        "Economy Score": 6119,
+        "Military Score": 8889,
+        "Technology Score": 3800,
+        "Society Score": 390,
+        "Wood Gathered": 38242,
+        "Stone Gathered": 3173,
+        "Food Gathered": 33595,
+        "Gold Gathered": 27829
+      }
+    },
+    {
+      "id": 135,
+      "timestamp": "3/28/2026 14:05:06",
+      "date": "2026-03-28",
+      "player": "Jace",
+      "game": "Age of Empires II: Definitive Edition",
+      "metrics": {
+        "Score": 21431,
+        "Win/Loss": 1,
+        "Economy Score": 8756,
+        "Military Score": 3837,
+        "Technology Score": 8188,
+        "Society Score": 650,
+        "Wood Gathered": 45817,
+        "Stone Gathered": 4182,
+        "Food Gathered": 42617,
+        "Gold Gathered": 25910
+      }
+    },
+    {
+      "id": 136,
+      "timestamp": "3/28/2026 14:05:06",
+      "date": "2026-03-28",
+      "player": "AJ",
+      "game": "Age of Empires II: Definitive Edition",
+      "metrics": {
+        "Score": 8910,
+        "Win/Loss": 1,
+        "Economy Score": 4020,
+        "Military Score": 2749,
+        "Technology Score": 2011,
+        "Society Score": 130,
+        "Wood Gathered": 10013,
+        "Stone Gathered": 3123,
+        "Food Gathered": 14193,
+        "Gold Gathered": 15147
+      }
+    },
+    {
+      "id": 137,
+      "timestamp": "3/28/2026 17:26:58",
+      "date": "2026-03-28",
+      "player": "Alec",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Snipers",
+        "Map Name": "Stonetown",
+        "Kills": 8,
+        "Deaths": 7,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 138,
+      "timestamp": "3/28/2026 17:26:58",
+      "date": "2026-03-28",
+      "player": "Brady",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Snipers",
+        "Map Name": "Stonetown",
+        "Kills": 10,
+        "Deaths": 5,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 139,
+      "timestamp": "3/28/2026 17:26:58",
+      "date": "2026-03-28",
+      "player": "Jake",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Snipers",
+        "Map Name": "Stonetown",
+        "Kills": 8,
+        "Deaths": 8,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 140,
+      "timestamp": "3/28/2026 17:26:58",
+      "date": "2026-03-28",
+      "player": "J-Mart",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Snipers",
+        "Map Name": "Stonetown",
+        "Kills": 13,
+        "Deaths": 5,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 141,
+      "timestamp": "3/28/2026 17:26:58",
+      "date": "2026-03-28",
+      "player": "Steph",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Snipers",
+        "Map Name": "Stonetown",
+        "Kills": 1,
+        "Deaths": 12,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 142,
+      "timestamp": "3/28/2026 17:26:58",
+      "date": "2026-03-28",
+      "player": "Tom",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Snipers",
+        "Map Name": "Stonetown",
+        "Kills": 4,
+        "Deaths": 6,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 143,
+      "timestamp": "3/28/2026 17:26:58",
+      "date": "2026-03-28",
+      "player": "Jace",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Snipers",
+        "Map Name": "Stonetown",
+        "Kills": 15,
+        "Deaths": 5,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 144,
+      "timestamp": "3/28/2026 17:26:58",
+      "date": "2026-03-28",
+      "player": "AJ",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Snipers",
+        "Map Name": "Stonetown",
+        "Kills": 2,
+        "Deaths": 9,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 145,
+      "timestamp": "3/28/2026 17:26:58",
+      "date": "2026-03-28",
+      "player": "Drew",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 2: Anniversary",
+        "Game Type": "Snipers",
+        "Map Name": "Stonetown",
+        "Kills": 6,
+        "Deaths": 7,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 146,
+      "timestamp": "3/28/2026 17:40:22",
+      "date": "2026-03-28",
+      "player": "Alec",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Blackout",
+        "Kills": 4,
+        "Deaths": 10,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 147,
+      "timestamp": "3/28/2026 17:40:22",
+      "date": "2026-03-28",
+      "player": "Brady",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Blackout",
+        "Kills": 3,
+        "Deaths": 15,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 148,
+      "timestamp": "3/28/2026 17:40:22",
+      "date": "2026-03-28",
+      "player": "Jake",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Blackout",
+        "Kills": 26,
+        "Deaths": 18,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 149,
+      "timestamp": "3/28/2026 17:40:22",
+      "date": "2026-03-28",
+      "player": "J-Mart",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Blackout",
+        "Kills": 10,
+        "Deaths": 6,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 150,
+      "timestamp": "3/28/2026 17:40:22",
+      "date": "2026-03-28",
+      "player": "Steph",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Blackout",
+        "Kills": 5,
+        "Deaths": 14,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 151,
+      "timestamp": "3/28/2026 17:40:22",
+      "date": "2026-03-28",
+      "player": "Tom",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Blackout",
+        "Kills": 17,
+        "Deaths": 13,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 152,
+      "timestamp": "3/28/2026 17:40:22",
+      "date": "2026-03-28",
+      "player": "Jace",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Blackout",
+        "Kills": 13,
+        "Deaths": 8,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 153,
+      "timestamp": "3/28/2026 17:40:22",
+      "date": "2026-03-28",
+      "player": "AJ",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Blackout",
+        "Kills": 9,
+        "Deaths": 7,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 154,
+      "timestamp": "3/28/2026 17:40:22",
+      "date": "2026-03-28",
+      "player": "Drew",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Swat",
+        "Map Name": "Blackout",
+        "Kills": 8,
+        "Deaths": 7,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 155,
+      "timestamp": "3/28/2026 17:59:20",
+      "date": "2026-03-28",
+      "player": "Alec",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Team Slayer",
+        "Map Name": "The Pit",
+        "Kills": 9,
+        "Deaths": 13,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 156,
+      "timestamp": "3/28/2026 17:59:20",
+      "date": "2026-03-28",
+      "player": "Brady",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Team Slayer",
+        "Map Name": "The Pit",
+        "Kills": 4,
+        "Deaths": 13,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 157,
+      "timestamp": "3/28/2026 17:59:20",
+      "date": "2026-03-28",
+      "player": "Jake",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Team Slayer",
+        "Map Name": "The Pit",
+        "Kills": 23,
+        "Deaths": 6,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 158,
+      "timestamp": "3/28/2026 17:59:20",
+      "date": "2026-03-28",
+      "player": "J-Mart",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Team Slayer",
+        "Map Name": "The Pit",
+        "Kills": 14,
+        "Deaths": 4,
+        "Win/Loss": 1
+      }
+    },
+    {
+      "id": 159,
+      "timestamp": "3/28/2026 17:59:20",
+      "date": "2026-03-28",
+      "player": "Fred",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Team Slayer",
+        "Map Name": "The Pit",
+        "Kills": 4,
+        "Deaths": 19,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 160,
+      "timestamp": "3/28/2026 17:59:20",
+      "date": "2026-03-28",
+      "player": "Steph",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Team Slayer",
+        "Map Name": "The Pit",
+        "Kills": 7,
+        "Deaths": 13,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 161,
+      "timestamp": "3/28/2026 17:59:20",
+      "date": "2026-03-28",
+      "player": "Tom",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Team Slayer",
+        "Map Name": "The Pit",
+        "Kills": 12,
+        "Deaths": 10,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 162,
+      "timestamp": "3/28/2026 17:59:20",
+      "date": "2026-03-28",
+      "player": "Jace",
+      "game": "Halo Master Chief Collection",
+      "metrics": {
+        "Game Name": "Halo 3",
+        "Game Type": "Team Slayer",
+        "Map Name": "The Pit",
+        "Kills": 13,
+        "Deaths": 8,
+        "Win/Loss": 0
+      }
+    },
+    {
+      "id": 163,
+      "timestamp": "3/29/2026 9:56:22",
+      "date": "2026-03-29",
+      "player": "Jake",
+      "game": "Slay the Spire 2",
+      "metrics": {
+        "Act 1 win": 1,
+        "Act 2 win": 1,
+        "Win/Loss": 1,
+        "Random Character?": 0,
+        "Deaths": 0,
+        "Mend Count": 0
+      }
+    },
+    {
+      "id": 164,
+      "timestamp": "3/29/2026 9:56:22",
+      "date": "2026-03-29",
+      "player": "Jace",
+      "game": "Slay the Spire 2",
+      "metrics": {
+        "Act 1 win": 1,
+        "Act 2 win": 1,
+        "Win/Loss": 1,
+        "Random Character?": 0,
+        "Deaths": 0,
+        "Mend Count": 0
+      }
+    },
+    {
+      "id": 165,
+      "timestamp": "3/29/2026 9:56:22",
+      "date": "2026-03-29",
+      "player": "Tom",
+      "game": "Slay the Spire 2",
+      "metrics": {
+        "Act 1 win": 1,
+        "Act 2 win": 1,
+        "Win/Loss": 1,
+        "Random Character?": 0,
+        "Deaths": 0,
+        "Mend Count": 1
+      }
+    }
+  ]
+}
